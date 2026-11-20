@@ -1,6 +1,6 @@
 # Tintako Launcher third-party licenses
 
-Tintako Launcher 1.0-beta1 is built with these open-source parts. The full license texts are inside the app (Settings → About → Open source licenses). Versions come from the release build's dependency list.
+Tintako Launcher 1.0-beta3 is built with these open-source parts. The full license texts are inside the app (Settings → About → Open source licenses). Versions come from the release build's dependency list.
 
 | Component | Version | License | Source |
 |---|---|---|---|

@@ -12,10 +12,10 @@ Tintako, Croatia. Contact: app@tintako.com.
 Only on your device, in the app's private storage: your settings, the layout of your apps and the bottom row, which apps you hid, the order of your widgets, and wallpapers you chose. Your own wallpaper pictures are kept only as converted grey images; the original picture is not kept. Nothing is copied to backups or moved to a new device by the app. Uninstalling the app removes it all.
 
 ## Permissions, and what each is for
-- **Notification access**, only if you allow it: the launcher counts notifications per app to show badges on icons. It uses only the app name and the count; it never reads or stores the title or text of a notification.
+- **Notification access**, only if you allow it: the launcher counts notifications per app to show badges on icons. It uses only the app name and the count; it never reads or stores the title or text of a notification. When you choose Clear notifications in an icon's menu, it removes that app's notifications, as swiping them away would.
 - **Read weather data** (`com.mudita.weather.PERMISSION_READ_WEATHER_DATA`): reads the current weather that the phone's Weather app offers to other apps, for the weather widget. The launcher itself fetches nothing.
 - **Wi-Fi state** (`ACCESS_WIFI_STATE`): only to show whether the hotspot is on. Airplane mode and the hotspot are switched in the phone's own settings.
-- **Biometric** (`USE_BIOMETRIC`): the phone's own PIN or fingerprint check, only to open the eye for hidden apps. The launcher never sees your PIN or fingerprint.
+- **Biometric** (`USE_BIOMETRIC`): the phone's own PIN or fingerprint check, only for parental control. The launcher never sees your PIN or fingerprint. An own PIN for parental control is kept on this phone only, as a salted hash, never as the number.
 - **Widget data** (`com.tintako.widget.permission.READ`): lets Tintako apps hand the launcher what their widget shows. Each app checks that it is this launcher, signed by Tintako, asking.
 - The Radio widget talks to the Radio app on your phone through the system's media controls, to show what plays and to play, pause or change the station. It needs no permission.
 - The Android system adds one internal permission (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`) that only protects the app's own internal messages.
