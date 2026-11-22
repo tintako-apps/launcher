@@ -2,6 +2,8 @@
 
 # Tintako Launcher
 
+> **No longer developed.** Tintako Launcher gets no more updates. It keeps working, and every version is kept in [tintako-apps/history](https://github.com/tintako-apps/history/tree/main/launcher).
+
 A calm, fully offline home screen made for E Ink devices: a big clock, your apps in a clean grid, and widgets from your own apps. Black and white, no animations.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/tintako)
