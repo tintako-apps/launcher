@@ -2,33 +2,29 @@
 
 # Tintako Launcher
 
-> **No longer developed.** Tintako Launcher gets no more updates. It keeps working, and every version is kept in [tintako-apps/history](https://github.com/tintako-apps/history/tree/main/launcher).
-
-A calm, fully offline home screen made for E Ink devices: a big clock, your apps in a clean grid, and widgets from your own apps. Black and white, no animations.
+A calm, fully offline home screen made for E Ink devices: a clock, your apps, and nothing else. Black and white, no animations.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/tintako)
 
 ## What it can do
-- Three pages: widgets on the left, home in the middle, all apps on the right
-- Home with a large clock and date (left, centre or right; three sizes) and a bottom row of up to 4 apps
-- All apps in a grid that fills the screen, 3 or 4 columns, with no gaps; long press to rearrange
+- One page: the clock and your first 3 or 4 apps. Swipe up for the others, a page at a time
+- Your own order, always without gaps: move an app and the others make room
+- Clock, date and weather, each on its own switch; three styles, three sizes, left, centre or right
+- Wallpapers: built-in ones, or your own pictures from one folder, newest first, turned into 16 greys
+- White or clear background behind the clock and the names
 - Hide any app with a switch in Settings
 - Parental control: locked apps disappear from the launcher, and its Settings ask for the phone's PIN or an own PIN
-- Clear an app's notifications from its icon menu
-- Notification badges on icons, as a number or a dot (only counted, never read)
-- Widgets: Radio with play, previous, next and cast keys, and the weather from the phone's Weather app; widgets from other Tintako apps appear by themselves once those apps support them
-- Quick tiles for Settings, the flashlight, airplane mode and the hotspot
-- Wallpapers: built-in ones or your own picture, turned into grey tones for E Ink
-- App icons are shown as their makers drew them
+- Notification badges as a number or a dot (only counted, never read), and Clear notifications in an app's menu
 
-**Languages:** Croatian, English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech
+The launcher itself never sends notifications, and it never will.
+
+**Languages:** English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech. It follows the language of the phone.
 
 ## Permissions
 - **Notification access** (only if you allow it): counts notifications per app for the badges; never reads or stores their content
-- **Read weather data** of the phone's Weather app: for the weather widget
-- **Wi-Fi state:** only to show whether the hotspot is on
+- **Read weather data** of the phone's Weather app: only if you turn weather on
+- **Wallpaper folder** (only if you choose one): reads the pictures in that folder
 - **Biometric:** the phone's own PIN or fingerprint check, only for parental control
-- **Widget data:** lets Tintako apps hand their widget to the launcher
 
 No internet permission: the launcher never connects to anything. Details: [Privacy](PRIVACY.md) · [Terms of use](TERMS.md) · [Licenses](LICENSES.md)
 

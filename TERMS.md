@@ -1,6 +1,6 @@
 # Tintako Launcher Terms of Use
 
-Effective 20 November 2026. These terms also serve as the end-user license agreement (EULA).
+Effective 25 November 2026. These terms also serve as the end-user license agreement (EULA).
 
 ## What these terms are
 These terms are an agreement between you and Tintako (Croatia, app@tintako.com), who provides Tintako Launcher. The store or device maker you got it through is not a party to them.
@@ -18,10 +18,10 @@ Tintako Launcher is provided as it is, without warranty. This does not limit any
 Tintako intends to fix reported problems and answers messages to app@tintako.com, but does not promise support or updates.
 
 ## Third-party services
-The app uses no third-party services. Widgets show what other apps on your phone hand over; those apps' own terms apply to them. The Tip jar code only leads another phone to Ko-fi, whose own terms apply there.
+The app uses no third-party services. The weather it can show comes from the phone's own Weather app, whose own terms apply to it. The Tip jar code only leads another phone to Ko-fi, whose own terms apply there.
 
 ## Changes
-If these terms change, the new version is published here and in the app (Settings → About → Terms of use), with a new date.
+If these terms change, the new version is published here and in the app (Settings → Terms of use), with a new date.
 
 ## Contact
 Tintako, app@tintako.com.
